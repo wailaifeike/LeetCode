@@ -2,6 +2,7 @@ package 树;
 
 public class _1315_祖父节点值为偶数的节点和 {
 	 int sum = 0;
+	 int xx = 0;
 	 public int sumEvenGrandparent(TreeNode root) {
 		 
 		 return dfs(root);
